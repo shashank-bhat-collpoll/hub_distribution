@@ -82,3 +82,15 @@ The script generates several output files:
 - The script requires internet access to fetch data from Prometheus
 - Make sure you have the correct permissions to access the Prometheus API
 - The script will automatically install missing dependencies if run with sudo privileges
+
+## Quick Start
+
+To quickly get started, run these commands:
+
+```bash
+# Add execute permission to the script
+chmod +x process_hubs.sh
+
+# Run the script
+./process_hubs.sh
+```

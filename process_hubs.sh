@@ -17,6 +17,11 @@ check_dependencies() {
     fi
 }
 
+# Create output directory with timestamp
+output_dir="generated"
+mkdir -p "$output_dir"
+echo "Created output directory: $output_dir"
+
 # Check if hub_group_list.csv exists
 if [ ! -f "hub_group_list.csv" ]; then
     echo "Error: hub_group_list.csv not found in the current directory"
@@ -33,7 +38,6 @@ read -s -p "Enter Prometheus password(Refer parameter store): " prometheus_passw
 echo  # Add a newline after password input
 read -p "Enter start date (YYYY-MM-DD): " start_date
 read -p "Enter end date (YYYY-MM-DD): " end_date
-read -p "Enter total number of hubs: " total_hubs
 
 # Convert dates to timestamps
 start_timestamp=$(date -d "$start_date" +%s)
@@ -49,14 +53,14 @@ while [ $current_timestamp -le $end_timestamp ]; do
     curl -s -u "${prometheus_username}:${prometheus_password}" "https://prometheus.digiicampus.com/api/v1/query" \
         --data-urlencode "query=round(sum by (host) (increase(http_nginx_requests_total[24h])))" \
         --data-urlencode "time=${current_date}T00:00:00Z" | \
-        jq -r '.data.result[] | [.metric.host, .value[1]] | join(",")' > "count_${current_date}.csv"
+        jq -r '.data.result[] | [.metric.host, .value[1]] | join(",")' > "$output_dir/count_${current_date}.csv"
     
     # Move to next day
     current_timestamp=$((current_timestamp + 86400))
 done
 
 # Combine all daily counts into final count.csv
-cat count_*.csv | awk -F',' '
+cat "$output_dir"/count_*.csv | awk -F',' '
 {
     sum[$1] += $2
 }
@@ -64,7 +68,7 @@ END {
     for (host in sum) {
         print host "," sum[host]
     }
-}' | sort -t',' -k2,2nr > count.csv
+}' | sort -t',' -k2,2nr > "$output_dir/count.csv"
 
 echo "Processing daily counts complete. Starting schema processing..."
 
@@ -83,46 +87,54 @@ awk -F '[,/ \t]+' '
       print toupper($5) "," db "," $6;
     }
   }
-}' hub_group_list.csv > hub_group_processed.csv
-
-# Calculate group size based on count.csv
-total_rows=$(wc -l < count.csv)
-group_size=$((total_rows / total_hubs))
-echo "Group size calculated: $group_size"
+}' hub_group_list.csv > "$output_dir/hub_group_processed.csv"
 
 # Sort by count
-sort -t, -k2,2nr count.csv > sorted_count.csv
+sort -t, -k2,2nr "$output_dir/count.csv" > "$output_dir/sorted_count.csv"
 
-# Generate ranked data
-awk -F',' -v rank=$total_hubs -v group_size=$group_size '
-BEGIN {count=0} 
+# Generate ranked data with both count and rank
+awk -F',' '
 {
-    if (count >= group_size) {
-        rank--;
-        count=0
-    }
-    count++;
-    print $1 "," rank
-}' sorted_count.csv > ranked.csv
+    # Keep original count
+    count = $2
+    # Calculate rank (divide count by 1000 and round to nearest integer)
+    weight = int(count/1000 + 0.5)
+    print $1 "," count "," weight
+}' "$output_dir/sorted_count.csv" > "$output_dir/ranked.csv"
 
 # Generate merged schema
-awk -F ',' 'NR==FNR {rank[$1] = $2; next} {r = (rank[$3] ? rank[$3] : 0); print $1 "," $2 "," $3 "," r}' \
-    ranked.csv hub_group_processed.csv > merged_schema.csv
+awk -F ',' 'NR==FNR {count[$1] = $2; rank[$1] = $3; next} {c = (count[$3] ? count[$3] : 0); r = (rank[$3] ? rank[$3] : 0); print $1 "," $2 "," $3 "," c "," r}' \
+    "$output_dir/ranked.csv" "$output_dir/hub_group_processed.csv" > "$output_dir/merged_schema.csv"
 
 # Generate grouped schema
 awk -F ',' '
 {
-    rank_sum[$2] += $4;
+    rank_sum[$2] += $5;
 }
 END {
     for (db in rank_sum) {
         print db "," rank_sum[db];
     }
-}' merged_schema.csv | sort -t',' -k2,2nr > grouped_schema.csv
+}' "$output_dir/merged_schema.csv" | sort -t',' -k2,2nr > "$output_dir/grouped_schema.csv"
 
-echo "Processing complete. Results are available in:"
+# Calculate total requests per database group
+echo "Calculating total requests per database group..."
+awk -F ',' '
+{
+    db = $2;
+    count = $4;
+    total_requests[db] += count;
+}
+END {
+    for (db in total_requests) {
+        print db "," total_requests[db];
+    }
+}' "$output_dir/merged_schema.csv" | sort -t',' -k2,2nr > "$output_dir/db_requests.csv"
+
+echo "Processing complete. Results are available in: $output_dir"
 echo "- count.csv (aggregated daily counts)"
 echo "- sorted_count.csv (sorted by count)"
-echo "- ranked.csv (ranked data)"
-echo "- merged_schema.csv (merged schema)"
-echo "- grouped_schema.csv (grouped schema)" 
+echo "- ranked.csv (ranked data with count and rank)"
+echo "- merged_schema.csv (merged schema with count and rank)"
+echo "- grouped_schema.csv (grouped schema)"
+echo "- db_requests.csv (total requests per database group)" 
