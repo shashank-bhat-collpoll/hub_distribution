@@ -21,54 +21,6 @@ This file should be placed in the same directory as the script. The file format 
 ```
 
 
-## Script Execution
-
-1. Place the `hub_group_list.csv` file in the script directory
-2. Run the script:
-```bash
-chmod +x process_hubs.sh 
-./process_hubs.sh
-```
-
-3. When prompted, provide:
-   - Prometheus username (from parameter store)
-   - Prometheus password (from parameter store)
-   - Start date (YYYY-MM-DD)
-   - End date (YYYY-MM-DD)
-   - Total number of hubs
-
-## Output Files
-
-The script generates several output files:
-
-1. `count_[DATE].csv`
-   - Format: `host,count`
-   - Contains daily request counts for each host
-
-2. `count.csv`
-   - Format: `host,total_count`
-   - Aggregated daily counts for all hosts
-
-3. `sorted_count.csv`
-   - Format: `host,total_count`
-   - Sorted version of count.csv by count in descending order
-
-4. `ranked.csv`
-   - Format: `host,rank`
-   - Contains host rankings based on request counts
-
-5. `hub_group_processed.csv`
-   - Format: `HUB_NAME,db_number,hub_id`
-   - Processed version of hub_group_list.csv
-
-6. `merged_schema.csv`
-   - Format: `HUB_NAME,db_number,hub_id,rank`
-   - Combined data from ranked.csv and hub_group_processed.csv
-
-7. `grouped_schema.csv`
-   - Format: `db_number,total_rank`
-   - Aggregated ranks by database number
-
 ## Process Flow
 
 1. The script checks for required dependencies and installs them if missing
