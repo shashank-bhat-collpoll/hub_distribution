@@ -37,7 +37,19 @@ This file should be placed in the same directory as the script. The file format 
 
 ## Quick Start
 
-To quickly get started, run these commands:
+### Generate hub_group_list.csv file
+
+1. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the script to generate hub_group_list.csv:
+```bash
+python3 fetch_hub_list.py
+```
+
+### Hub weight calculation
 
 ```bash
 # Add execute permission to the script

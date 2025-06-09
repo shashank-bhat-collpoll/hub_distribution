@@ -1,182 +1,169 @@
-/prod/hub/hub-ap-south-1-db11/ashoka,ashoka.digiicampus.com
-/prod/hub/hub-ap-south-1-bennett/bennett,bennett.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/chitkara,chitkara.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/onlinechitkarau,onlinechitkarau.digiicampus.com
-/prod/hub/hub-ap-south-1-common-hub/demo,demo.digiicampus.com
-/prod/hub/hub-ap-south-1-common-hub/team,team.digiicampus.com
-/prod/hub/hub-ap-south-1-common-hub/university,university.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/bitsom,bitsom.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/bmu,bmu.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/edology,edology.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/gdgu,gdgu.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/mangalayatanjbl,mangalayatanjbl.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/mru,mru.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/rvu,rvu.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/bldeaconjkd,bldeaconjkd.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/ushamartin,ushamartin.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/hkbkce,hkbkce.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/hkbkdc,hkbkdc.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/hkbkpahs,hkbkpahs.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/hkbkpu,hkbkpu.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/rimt,rimt.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/wud,wud.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/cu,cu.digiicampus.com
-/prod/hub/hub-ap-south-1-db12/sanskriti,sanskriti.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/amcdc,amcdc.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/helpdeskcce,helpdeskcce.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/shooliniuniversity,shooliniuniversity.digiicampus.com
-/prod/hub/hub-ap-south-1-db12/suuz,suuz.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/amcec,amcec.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/bldedu,bldedu.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/iimc,iimc.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/nshmd,nshmd.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/nshmk,nshmk.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/rccvgc,rccvgc.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/aimsrchittoor,aimsrchittoor.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/apollouniversity,apollouniversity.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/mabfsi,mabfsi.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/acop,acop.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/apolloaiha,apolloaiha.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/apolloaihcm,apolloaihcm.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/apolloimsr,apolloimsr.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/gims,gims.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/ttddc,ttddc.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/ttdjc,ttdjc.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/acon,acon.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/aaalay,aaalay.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/asmibmrpgdm,asmibmrpgdm.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/bestiu,bestiu.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/iiad,iiad.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/iitmzanzibar,iitmzanzibar.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/isbmpunepgdm,isbmpunepgdm.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/mdig,mdig.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/namtech,namtech.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/vmrfpondy,vmrfpondy.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/asmibmrmca,asmibmrmca.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/bitslaw,bitslaw.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/iitm,iitm.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/manipalskills,manipalskills.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/niet,niet.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/pdm,pdm.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/pwioi,pwioi.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/snu,snu.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/svecw,svecw.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/vidyashilp,vidyashilp.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/asmibmrmbap,asmibmrmbap.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/asmibmrmbar,asmibmrmbar.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/isbmcoc,isbmcoc.digiicampus.com
-/prod/hub/hub-ap-south-1-db13/mibmpune,mibmpune.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/mulms,mulms.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/vmrfchennai,vmrfchennai.digiicampus.com
-/prod/hub/hub-ap-south-1-db15/vmrfsahsslm,vmrfsahsslm.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/epche,epche.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/epcm,epcm.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/epcn,epcn.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/epcp,epcp.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/eppuc,eppuc.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/epsn,epsn.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/gmrit,gmrit.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/iihmrbangalore,iihmrbangalore.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/jiet,jiet.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/mrids,mrids.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/mrmcw,mrmcw.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/nrcn,nrcn.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/shobhitodl,shobhitodl.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/epcet,epcet.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/epcms,epcms.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/epcpt,epcpt.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/eppuca,eppuca.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/firm,firm.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/gibsbschool,gibsbschool.digiicampus.com
-/prod/hub/hub-ap-south-1-db16/jietn,jietn.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/mrdcw,mrdcw.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/mrims,mrims.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/ucb,ucb.digiicampus.com
-/prod/hub/hub-ap-south-1-db10/msb,msb.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/nls,nls.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/citcoimbatore,citcoimbatore.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/lavonneacademy,lavonneacademy.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/maya,maya.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/opju,opju.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/scase,scase.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/seckc,seckc.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/shridevi,shridevi.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/tiuwb,tiuwb.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/aiimsdelhi,aiimsdelhi.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/bmsitm,bmsitm.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/ju,ju.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/kare,kare.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/lords,lords.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/scp,scp.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/secse,secse.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/spark,spark.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/vitbangalore,vitbangalore.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/vitchennai,vitchennai.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/akcp,akcp.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/kishkindauniversity,kishkindauniversity.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/shasuncollege,shasuncollege.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/akcas,akcas.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/akce,akce.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/bitsdes,bitsdes.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/isme,isme.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/lgs,lgs.digiicampus.com
-/prod/hub/hub-ap-south-1-db18/nalsar,nalsar.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/sgbs,sgbs.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/dme,dme.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/dtc,dtc.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/shobhit,shobhit.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/sug,sug.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypakurdipune,dypakurdipune.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypcoa,dypcoa.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypcoeakurdi,dypcoeakurdi.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypdpharmaakurdi,dypdpharmaakurdi.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dyppgdm,dyppgdm.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dyppharmaakurdi,dyppharmaakurdi.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypacademy,dypacademy.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypagribusiness,dypagribusiness.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypcaac,dypcaac.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypdss,dypdss.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypiemr,dypiemr.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypimca,dypimca.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/dypiu,dypiu.digiicampus.com
-/prod/hub/hub-ap-south-1-db4/dypjrcollege,dypjrcollege.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/ybppolytechnic,ybppolytechnic.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/manipaldubai,manipaldubai.digiicampus.com
-/prod/hub/hub-ap-south-1-db5/miu,miu.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/fiib,fiib.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/ge,ge.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/isbmblr,isbmblr.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/isbr,isbr.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/rishihood,rishihood.digiicampus.com
-/prod/hub/hub-ap-south-1-db3/rit,rit.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/jioinstitute,jioinstitute.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/sgih,sgih.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/xime,xime.digiicampus.com
-/prod/hub/hub-ap-south-1-db7/gs,gs.digiicampus.com
-/prod/hub/hub-ap-south-1-db19/kkmu,kkmu.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/bbcop,bbcop.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/bldeaavsamv,bldeaavsamv.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/bldeabmpins,bldeabmpins.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/bldeacet,bldeacet.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/bldeacont,bldeacont.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/bldeassmcop,bldeassmcop.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/bldeassmpoly,bldeassmpoly.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/bldeiti,bldeiti.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/iihmr,iihmr.digiicampus.com
-/prod/hub/hub-ap-south-1-db8/ubs,ubs.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/asm,asm.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/cguodisha,cguodisha.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/iihmrdelhi,iihmrdelhi.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/micms,micms.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/msu,msu.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/nimsuniversityrajasthan,nimsuniversityrajasthan.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/svc,svc.digiicampus.com
-/prod/hub/hub-ap-south-1-db9/svims,svims.digiicampus.com
-/prod/hub/hub-ap-south-1-examinations/examinations,examinations.digiicampus.com
-/prod/hub/hub-ap-south-1-jnu/jnu,jnu.digiicampus.com
-/prod/hub/hub-ap-south-1-db11/ndim,ndim.digiicampus.com
-/prod/hub/hub-ap-south-1-staging/staging,staging.digiicampus.com
-/prod/hub/hub-ap-south-1-qa-asg/uat,uat.digiicampus.com 
-/prod/hub/hub-ap-south-1-qa-asg/bi,bi.digiicampus.com/ 
-/prod/hub/hub-ap-south-1-qastaging/qastaging,qastaging.digiicampus.com 
-/qa/hub/hub-jio-india-west-qa/azureqa,azureqa.digiicampus.com
+/prod/hub/hub-ap-south-1-bennett/tiuwb, tiuwb.digiicampus.com
+/prod/hub/hub-ap-south-1-common-hub/examinations, examinations.digiicampus.com
+/prod/hub/hub-ap-south-1-common-hub/team, team.digiicampus.com
+/prod/hub/hub-ap-south-1-common-hub/demo, demo.digiicampus.com
+/prod/hub/hub-ap-south-1-common-hub/university, university.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/bgu, bgu.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/edology, edology.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/gdgu, gdgu.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/gibsbschool, gibsbschool.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/mangalayatanjbl, mangalayatanjbl.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/mrdcw, mrdcw.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/mrims, mrims.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/msb, msb.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/bitsom, bitsom.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/bldeaconjkd, bldeaconjkd.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/shobhitodl, shobhitodl.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/ucb, ucb.digiicampus.com
+/prod/hub/hub-ap-south-1-db10/ushamartin, ushamartin.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/ashoka, ashoka.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/dme, dme.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/hkbkpahs, hkbkpahs.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/jspmuni, jspmuni.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/wud, wud.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/dtc, dtc.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/dypiu, dypiu.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/hkbkdc, hkbkdc.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/hkbkpu, hkbkpu.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/manipaldubai, manipaldubai.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/ndim, ndim.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/nls, nls.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/onlinechitkarau, onlinechitkarau.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/rimt, rimt.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/ybppolytechnic, ybppolytechnic.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/chitkara, chitkara.digiicampus.com
+/prod/hub/hub-ap-south-1-db11/hkbkce, hkbkce.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/asmibmrmbar, asmibmrmbar.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/bldedu, bldedu.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/manipalskills, manipalskills.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/mibmpune, mibmpune.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/niet, niet.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/nshmd, nshmd.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/rccvgc, rccvgc.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/svecw, svecw.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/aimsrchittoor, aimsrchittoor.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/apollouniversity, apollouniversity.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/asmibmrmbap, asmibmrmbap.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/isbmcoc, isbmcoc.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/mabfsi, mabfsi.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/nshmk, nshmk.digiicampus.com
+/prod/hub/hub-ap-south-1-db13/pwioi, pwioi.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/asmibmrpgdm, asmibmrpgdm.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/bestiu, bestiu.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/iitmzanzibar, iitmzanzibar.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/asmibmrmca, asmibmrmca.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/iiad, iiad.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/iitm, iitm.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/isbmpunepgdm, isbmpunepgdm.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/mdig, mdig.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/namtech, namtech.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/pdm, pdm.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/snu, snu.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/vidyashilp, vidyashilp.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/vmrfpondy, vmrfpondy.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/bitslaw, bitslaw.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/mulms, mulms.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/vmrfchennai, vmrfchennai.digiicampus.com
+/prod/hub/hub-ap-south-1-db15/vmrfsahsslm, vmrfsahsslm.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/epche, epche.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/epcm, epcm.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/epcn, epcn.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/eppuc, eppuc.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/iihmrbangalore, iihmrbangalore.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/nrcn, nrcn.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/epcms, epcms.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/epcp, epcp.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/eppuca, eppuca.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/epsn, epsn.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/firm, firm.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/gmrit, gmrit.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/jiet, jiet.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/mec, mec.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/mrids, mrids.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/mrmcw, mrmcw.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/epcet, epcet.digiicampus.com
+/prod/hub/hub-ap-south-1-db16/epcpt, epcpt.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/bmsitm, bmsitm.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/lavonneacademy, lavonneacademy.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/lords, lords.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/opju, opju.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/scase, scase.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/seckc, seckc.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/shridevi, shridevi.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/vitbangalore, vitbangalore.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/akcp, akcp.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/ju, ju.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/kare, kare.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/kishkindauniversity, kishkindauniversity.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/rajalakshmi, rajalakshmi.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/secse, secse.digiicampus.com
+/prod/hub/hub-ap-south-1-db18/spark, spark.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/helpdeskcce, helpdeskcce.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/sgih, sgih.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/shooliniuniversity, login.shooliniuniversity.com
+/prod/hub/hub-ap-south-1-db19/akcas, akcas.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/bitsdes, bitsdes.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/cu, cu.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/iiebm, iiebm.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/jioinstitute, jioinstitute.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/lgs, lgs.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/mims, mims.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/msrim, msrim.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/sgbs, sgbs.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/xime, xime.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/akce, akce.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/bsm, bsm.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/iba, iba.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/iibs, iibs.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/isme, isme.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/kkmu, kkmu.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/nalsar, nalsar.digiicampus.com
+/prod/hub/hub-ap-south-1-db19/ustu, ustu.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/isbr, isbr.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/shobhit, shobhit.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/acon, acon.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/apolloaiha, apolloaiha.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/apolloaihcm, apolloaihcm.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/ge, ge.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/gims, gims.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/rishihood, rishihood.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/rit, rit.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/sug, sug.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/ttddc, ttddc.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/ttdjc, ttdjc.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/acop, acop.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/apolloimsr, apolloimsr.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/fiib, fiib.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/isbmblr, isbmblr.digiicampus.com
+/prod/hub/hub-ap-south-1-db3/sitareuniv, sitareuniv.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/bbcop, bbcop.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/bldeacet, bldeacet.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/bldeacont, bldeacont.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/bldeassmcop, bldeassmcop.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/isbhyd, isbhyd.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/aiimsdelhi, aiimsdelhi.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/bldeaavsamv, bldeaavsamv.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/bldeabmpins, bldeabmpins.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/iihmr, iihmr.digiicampus.com
+/prod/hub/hub-ap-south-1-db8/ubs, ubs.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/asm, asm.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/greatlakeschennai, greatlakeschennai.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/shasuncollege, shasuncollege.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/svc, svc.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/svims, svims.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/citcoimbatore, citcoimbatore.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/iihmrdelhi, iihmrdelhi.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/isbmoh, isbmoh.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/kct, kct.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/micms, micms.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/modyuniversity, modyuniversity.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/msu, msu.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/nimsuniversityrajasthan, nimsuniversityrajasthan.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/scp, scp.digiicampus.com
+/prod/hub/hub-ap-south-1-db9/vivekuniversity, vivekuniversity.digiicampus.com
+/prod/hub/hub-ap-south-1-loadtest/loadtest, loadtest.digiicampus.com
+/prod/hub/hub-jio-india-west-db1/spwpc, spwpc.digiicampus.com
+/prod/hub/hub-jio-india-west-db1/svaych, svaych.digiicampus.com
+/prod/hub/hub-jio-india-west-db1/svitsa, svitsa.digiicampus.com
+/prod/hub/hub-jio-india-west-db1/svmdc, svmdc.digiicampus.com
+/prod/hub/hub-jio-india-west-db1/svoriental, svoriental.digiicampus.com
